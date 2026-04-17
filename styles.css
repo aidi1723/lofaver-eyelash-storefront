@@ -86,10 +86,12 @@ img {
 .brand {
   display: inline-flex;
   align-items: center;
+  min-width: 0;
 }
 
 .brand img {
-  width: clamp(120px, 14vw, 180px);
+  width: clamp(113px, 9.36vw, 151px);
+  height: auto;
 }
 
 .site-nav {
@@ -708,6 +710,10 @@ img {
     border-radius: 28px;
     padding: 14px 16px;
     flex-wrap: wrap;
+  }
+
+  .brand img {
+    width: 106px;
   }
 
   .menu-toggle {
